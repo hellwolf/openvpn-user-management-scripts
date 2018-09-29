@@ -4,7 +4,7 @@
 cd $(dirname "$0")/../easy-rsa
 
 cat <<EOF
-remote ec2-dev2.mzcholdings.com 20965 udp
+remote xxx.yyy.zzz 20965 udp
 nobind
 dev tun
 persist-tun 
