@@ -3,8 +3,11 @@
 [ -z "$1" ] && exit 1
 cd $(dirname "$0")/../easy-rsa
 
+PORT=$(grep '^port' ../server.conf  | awk '{print $2}')
+PROTO=$(grep '^proto' ../server.conf  | awk '{print $2}')
+
 cat <<EOF
-remote xxx.yyy.zzz 20965 udp
+remote `hostname` $PORT $PROTO
 nobind
 dev tun
 persist-tun 
