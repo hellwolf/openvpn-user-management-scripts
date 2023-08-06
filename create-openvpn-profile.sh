@@ -17,7 +17,7 @@ pull
 tls-client 
 
 <ca> 
-`cat ../ca.crt`
+`cat pki/ca.crt`
 </ca>
 
 <cert> 
