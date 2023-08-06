@@ -21,8 +21,8 @@ Commands
 # ./remove-user bob
 ```
 
-**Create User OpenVPN Profile**
+**Generate User OpenVPN Profile**
 
 ```
-# ./create-openvpn-profile.sh miao
+# ./gen-openvpn-profile.sh miao
 ```
