@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This repo is archived in favor of the standalone script: https://github.com/hellwolf/bin.public/blob/master/easier-easyrsa
+
 A set of scripts to manage the user profiles using EasyRSA.
 
 Commands
